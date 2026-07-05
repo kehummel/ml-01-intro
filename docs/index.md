@@ -1,15 +1,8 @@
 # Project Documentation
 
-This site provides project documentation.
-Use the documentation navigation to explore.
-
-## How-To Guide
-
-Many instructions are common to all our projects.
-
-See
+I used
 [⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
-to get the example projects running on your machine.
+to get the example projects running on my machine and then I made technical changes on copies.
 
 ## Project Documentation Pages (docs/)
 
@@ -23,56 +16,14 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+-I changed the data set to titanic from the seaborn library instead of penguins.
+-
+- I chose that change because I would have to change only a small amount of the code and so that I could see it run with different outputs throughout the entire notebook.
+-
+- I verified it worked by running each cell, and by checking the project log.
+-
+- This would be an example of supervised learning because we know whether or not the people survived.
 
-Include:
-
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
-
-## Phase 5. Custom Project (OPTIONAL in Module 1)
-
-Describe your custom project.
-
-In Module 1, this includes choosing a dataset, identifying a target,
-and explaining what kind of ML problem it represents.
-
-### Basis and Data
-
-Describe the dataset, input, or example you started with.
-
-Include:
-
-- The original example dataset or input
-- The data source
-- Why you chose it, kept it, or changed it
-- Any important limitations or assumptions
-
-### Modeling Approach
-
-Describe the problem type and approach for this project.
-
-Include:
-
-- Is this supervised or unsupervised and how do you know
 
 ### Summary
-
-Summarize your custom project.
-
-Include:
-
-- How you implemented your custom work
-- What results you got
-- What you learned
-- How well you exercised the skills covered in this project
-- What kinds of real problems you could apply these skills to in the future
-
-Display at least one image or screenshot showing your work.
+The output said that this would be a regression model because the column is numeric. However, I don't fully agree with that. If you ask the question whether a person has survived or not, your answer should be the words "yes" or "no". For this data set, those words had been turned into numerical values, 0 for no and 1 for yes. So while this column technically has numerical values which would mean regression analysis, it is actually providing data for a classification question.
