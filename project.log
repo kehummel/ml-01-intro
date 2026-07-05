@@ -374,3 +374,71 @@ dtype: int64
 2026-07-05 12:13:31 | INFO | M01 | Problem type:      regression (we want to predict a number)
 2026-07-05 12:13:31 | INFO | M01 | Candidate features: ['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone']
 2026-07-05 12:13:31 | INFO | M01 | ========================
+2026-07-05 12:51:05 | INFO | M01 | === RUN START ===
+2026-07-05 12:51:05 | INFO | M01 | project=M01
+2026-07-05 12:51:05 | INFO | M01 | repo_dir=ml-01-intro
+2026-07-05 12:51:05 | INFO | M01 | python=3.14.3
+2026-07-05 12:51:05 | INFO | M01 | os=Windows 11
+2026-07-05 12:51:05 | INFO | M01 | shell=powershell
+2026-07-05 12:51:05 | INFO | M01 | cwd=notebooks
+2026-07-05 12:51:05 | INFO | M01 | github_actions=False
+2026-07-05 12:51:05 | INFO | M01 | Confirming installation:
+2026-07-05 12:51:05 | INFO | M01 |   python:       3.14.3
+2026-07-05 12:51:05 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 12:51:05 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 12:51:05 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 12:51:05 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 12:51:05 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 12:51:06 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 12:51:06 | INFO | M01 | Loading dataset: titanic
+2026-07-05 12:51:06 | INFO | M01 | Loaded: 891 rows (instances), 15 columns
+2026-07-05 12:51:06 | INFO | M01 | Instances (rows): 891
+2026-07-05 12:51:06 | INFO | M01 | Columns:          15
+2026-07-05 12:51:06 | INFO | M01 | Numeric columns (regression target / numeric feature): ['survived', 'pclass', 'age', 'sibsp', 'parch', 'fare']
+2026-07-05 12:51:06 | INFO | M01 | Categorical columns (classification target / category): ['sex', 'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone']
+2026-07-05 12:51:06 | INFO | M01 | Missing values by column:
+survived         0
+pclass           0
+sex              0
+age            177
+sibsp            0
+parch            0
+fare             0
+embarked         2
+class            0
+who              0
+adult_male       0
+deck           688
+embark_town      2
+alive            0
+alone            0
+dtype: int64
+2026-07-05 12:51:06 | INFO | M01 | Missing values across all columns: 869
+2026-07-05 12:51:06 | DEBUG | M01 | First rows:
+2026-07-05 12:51:06 | DEBUG | M01 | 
+   survived  pclass     sex   age  sibsp  parch     fare embarked  class    who  adult_male deck  embark_town alive  \
+0         0       3    male  22.0      1      0   7.2500        S  Third    man        True  NaN  Southampton    no   
+1         1       1  female  38.0      1      0  71.2833        C  First  woman       False    C    Cherbourg   yes   
+2         1       3  female  26.0      0      0   7.9250        S  Third  woman       False  NaN  Southampton   yes   
+3         1       1  female  35.0      1      0  53.1000        S  First  woman       False    C  Southampton   yes   
+4         0       3    male  35.0      0      0   8.0500        S  Third    man        True  NaN  Southampton    no   
+
+   alone  
+0  False  
+1  False  
+2   True  
+3  False  
+4   True  
+2026-07-05 12:51:06 | INFO | M01 | Chosen target (y): survived
+2026-07-05 12:51:06 | INFO | M01 | Target is numeric? True
+2026-07-05 12:51:06 | INFO | M01 | Implied problem type: regression (we want to predict a number)
+2026-07-05 12:51:06 | INFO | M01 | Candidate features (X): ['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone']
+2026-07-05 12:51:06 | INFO | M01 | ========================
+2026-07-05 12:51:06 | INFO | M01 | SUMMARY OF KEY FACTS
+2026-07-05 12:51:06 | INFO | M01 | ========================
+2026-07-05 12:51:06 | INFO | M01 | Dataset:           titanic
+2026-07-05 12:51:06 | INFO | M01 | Instances:         891
+2026-07-05 12:51:06 | INFO | M01 | Candidate target:  survived
+2026-07-05 12:51:06 | INFO | M01 | Problem type:      regression (we want to predict a number)
+2026-07-05 12:51:06 | INFO | M01 | Candidate features: ['pclass', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone']
+2026-07-05 12:51:06 | INFO | M01 | ========================
