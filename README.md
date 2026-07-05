@@ -53,9 +53,6 @@ uv run python -m mlstudio.app_hummel
 git add -A
 git commit -m "update"
 git push -u origin main
-```
-
-
 
 ## Findings and Visuals
 
@@ -71,6 +68,8 @@ A copy was made of both the app file and notebook and adjustments were made to e
 - The notebook was changed to use the "titanic" set of data instead of "penguins"
 
 The output of the notebook is discussed in the index.
+
+## Index
 
 [docs/index.md](docs/index.md)
 
